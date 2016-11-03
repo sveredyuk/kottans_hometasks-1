@@ -16,8 +16,7 @@ class Human < NamedObject
   end
 end
 
-class Drink < NamedObject
-end
+Drink = Class.new(NamedObject)
 
 volodya = Human.new('Volodya')
 ira = Human.new('Ira')
